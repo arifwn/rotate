@@ -52,3 +52,13 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Test files
+*.tar.gz
+test_dir/daily
+test_dir/weekly
+test_dir/monthly

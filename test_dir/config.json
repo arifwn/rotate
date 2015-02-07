@@ -1,0 +1,9 @@
+{
+    "daily_dir": "test_dir/daily",
+    "weekly_dir": "test_dir/weekly",
+    "monthly_dir": "test_dir/monthly",
+    "daily_num": 14,
+    "weekly_num": 5,
+    "monthly_num": 12,
+    "filename_format": "{prefix}-{date:%d-%m-%Y}.{extension}"
+}
