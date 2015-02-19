@@ -166,9 +166,9 @@ def main():
     if should_backup_daily(date):
         backup_file(filepath, config['daily_dir'], config['filename_format'], date)
     if should_backup_weekly(date):
-        backup_file(filepath, config['daily_dir'], config['filename_format'], date)
+        backup_file(filepath, config['weekly_dir'], config['filename_format'], date)
     if should_backup_monthly(date):
-        backup_file(filepath, config['daily_dir'], config['filename_format'], date)
+        backup_file(filepath, config['monthly_dir'], config['filename_format'], date)
 
     daily_purge_list = get_purge_list(get_files(config['daily_dir']),
                                       config['daily_num'],

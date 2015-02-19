@@ -87,7 +87,7 @@ class TestUtils(unittest.TestCase):
         self.assertEqual('backup-02-02-2015.tar.gz', purge_list[1])
         self.assertEqual('backup-03-02-2015.tar.gz', purge_list[2])
 
-    def test_purge(self):
+    def test_get_config(self):
         from rotate import get_config
 
         config = get_config()
